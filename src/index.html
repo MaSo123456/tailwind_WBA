@@ -6,9 +6,9 @@
     <link href="./output.css" rel="stylesheet" />
     <title>Start Landing Page</title>
   </head>
-  <body class="bg-custom-green">
+  <body>
     <!-- Navbar -->
-    <div> 
+    <section class="bg-custom-green w-full"> 
       <header class="flex items-center justify-between px-6 py-4 md:px-16">
         <div class="flex items-center space-x-2">
           <img src="tailwindimgs/start.png" alt="Logo" class="h-8" />
@@ -59,24 +59,26 @@
           <img src="tailwindimgs/vo1.png" alt="Hero Image" class="w-full max-w-md mx-auto" />
         </div>
       </div>  
-    </div>
+    </section>
     
     <!-- Partners section -->
-      <div class="bg-white flex flex-col items-center w-full justify-between text-center px-6 py-12">
-        <div class="flex flex-col items-center justify-between w-full">
-          <p class="text-green-600 uppercase text-sm tracking-widest font-semibold mb-2">Partners</p>
-          <h2 class="text-xl font-bold mb-2">Lorem Ipsum Dolor</h2>
-          <p class="text-gray-600 mb-6">Lorem ipsum, dolor sit amet consectetur<br />adipisicing elit.</p>
-        </div>
-        <div class="flex flex-col md-flex-row items-center justify-between">
-          <img src="tailwindimgs/google.png" alt="Google" class="h-6" />
-          <img src="tailwindimgs/microsoft.png" alt="Microsoft" class="h-6" />
-          <img src="tailwindimgs/airbnb.png" alt="Airbnb" class="h-6" />
-          <img src="tailwindimgs/facebook.png" alt="Facebook" class="h-6" />
-          <img src="tailwindimgs/spotify.png" alt="Spotify" class="h-6" />
-        </div>
-        <button class="bg-black w-[170px] h-[48px]"></button>
-      </div>
+    
+    <section class="py-8 bg-white px-4">
+            <div class="max-w-xl mx-auto text-center">
+                <h2 class="h2">PARTNERS</h2>
+                <h1 class="h1">Lorem Ipsum Dolor</h1>
+                <p class="mb-4 font-fonth2 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="flex sm-flex-col md-flex-row items-center gap-8 mb-8">
+                    <img src="tailwindimgs/google.png" alt="Google" class="h-11 mx-auto">
+                    <img src="tailwindimgs/microsoft.png" alt="Microsoft" class="h-9 mx-auto">
+                    <img src="tailwindimgs/airbnb.png" alt="Airbnb" class="h-12 mx-auto">
+                    <img src="tailwindimgs/facebook.png" alt="Facebook" class="h-9 mx-auto">
+                    <img src="tailwindimgs/spotify.png" alt="Spotify" class="h-12 mx-auto">
+                </div>                
+                <button class="button">Learn More</button>
+                
+            </div>
+        </section>
     <!-- Features Section -->
 <div class="bg-white text-black px-6 py-12 space-y-12 md:space-y-24">
 
@@ -92,9 +94,9 @@
       <p class="text-gray-600 mb-4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.
       </p>
-      <button class="bg-black text-white px-6 py-2 rounded hover:bg-gray-800 transition">
+      <a href="#" class="button">
         Learn More
-      </button>
+      </a>
     </div>
   </div>
 
@@ -115,8 +117,40 @@
       </button>
     </div>
   </div>
-
   </div>
+    <!--Team section-->
+    <div class="py-8 px-4 max-w-xl mx-auto text-center">
+            <h2 class="h2">TEAM</h2>
+            <h1 class="h1">Our Talents</h1>
+            <p class="mb-4 text-sm font-fonth2">Lorem ipsum, dolor sit amet consectetur. Suscipit nemo hic quos, ab,</p>
+            </div>
+            <div class="grid grid-cols-1 gap-4 justify-items-center">
+                <div class="bg-white rounded shadow p-4 w-3xs">
+                    <img src="/Pictures/peg.png" alt="profilovka" class="mb-2 h-[175px] w-auto mx-auto">
+                    <div class="jmeno ">Peg Legge</div>
+                    <div class="funkce ">CEO</div>
+                </div>
+                <div class="bg-white rounded shadow p-4 w-3xs">
+                    <img src="/Pictures/richard.png" alt="profilovka" class="mb-2 h-[175px] w-auto mx-auto">
+                    <div class="jmeno ">Richard Guerra</div>
+                    <div class="funkce ">CTO</div>
+                </div>
+                <div class="bg-white rounded shadow p-4 w-3xs">
+                    <img src="/Pictures/alexandra.png" alt="profilovka" class="mb-2 h-[175px] w-auto mx-auto">
+                    <div class="jmeno ">Alexandra Stoly</div>
+                    <div class="funkce">Designer</div>
+                </div>
+                <div class="bg-white rounded shadow p-4 w-3xs ">
+                    <img src="/Pictures/janet.png" alt="profilovka" class="mb-2 h-[175px] w-auto mx-auto">
+                    <div class="jmeno ">Janet Bray</div>
+                    <div class="funkce ">Developer</div>
+                </div>
+            </div>
+            <button class="buttonstyle">Learn More</button>
+        </div>
+
+
+    </div>
     <!-- Footer -->
     <footer class="bg-custom-green text-white px-6 py-8 text-center space-y-4">
       <div class="space-x-4">
